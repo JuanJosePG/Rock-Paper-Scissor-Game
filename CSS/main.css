@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d3557;   
+    font-family: 'Oswald', sans-serif; 
+}
+
+header{
+    background-color: white;
+    padding: 30px;
+}
+
+header h1{
+    color: #1d3557;
+    font-size: 50px;
+    text-align: center;
+}
+
+.score-board{
+    border: 4px solid white;
+    border-radius: 10px;
+    margin: 25px auto;
+    width: 250px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 25px;
+    position: relative;
+    justify-content: center;
+}
+
+.badge{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+#user-label{
+    background-color: #37BBE6;
+    position: absolute;
+    top: 17.5px;
+    left: -29px;
+    border-radius: 10px;
+}
+
+#computer-label{
+    background-color: #e63946;
+    position: absolute;
+    top: 17.5px;
+    left: 200px;
+    border-radius: 10px;
+}
+
+.result{
+    font-size: 40px;
+    margin: 40px 0;
+    color: white;
+}
+
+.result > p{
+    text-align: center;
+}
+
+.choices{
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.choice{
+    display: inline-block;
+    border: 3px solid #37BBE6;
+    border-radius: 50%;
+    width: 175px;
+    margin: 0 20px;
+    background-color: white;
+}
+
+.choice > img{
+    width: 100%;
+    height: auto;
+}
+
+.choice:hover{
+    cursor: pointer;
+}
+
+#action-message{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+footer > h2{
+    margin: 15px 0;
+}
+
+footer > p{
+    font-weight: lighter;
+}
+
+.green-glow{
+    border: 7px solid #06d6a0;
+    box-shadow: 0 0 10px #06d6a0;
+    background-color: #06d6a0;
+}
+
+.red-glow{
+    border: 5px solid #e63946;
+    box-shadow: 0 0 10px #e63946;
+    background-color: #e63946;
+}
+
+.gray-glow{
+    border: 5px solid #464647;
+    box-shadow: 0 0 10px #464647;
+    background-color: #464647;
+}
